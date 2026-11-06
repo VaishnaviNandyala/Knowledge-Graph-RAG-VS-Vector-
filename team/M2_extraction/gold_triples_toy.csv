@@ -1,0 +1,29 @@
+doc_title,subject,relation,object
+Inception,Inception,director,Christopher Nolan
+Inception,Inception,release_year,2010
+Christopher Nolan,Christopher Nolan,place_of_birth,London
+London,London,located_in,United Kingdom
+Interstellar,Interstellar,director,Christopher Nolan
+Interstellar,Interstellar,release_year,2014
+Inception (soundtrack),Inception (soundtrack),composer,Hans Zimmer
+Inception (soundtrack),Inception (soundtrack),release_year,2010
+Hans Zimmer,Hans Zimmer,place_of_birth,Frankfurt
+Frankfurt,Frankfurt,located_in,Germany
+The Godfather,The Godfather,director,Francis Ford Coppola
+The Godfather,The Godfather,release_year,1972
+Francis Ford Coppola,Francis Ford Coppola,place_of_birth,Detroit
+Detroit,Detroit,located_in,United States
+Pride and Prejudice,Pride and Prejudice,author,Jane Austen
+Pride and Prejudice (2005 film),Pride and Prejudice (2005 film),director,Joe Wright
+Pride and Prejudice (2005 film),Pride and Prejudice (2005 film),release_year,2005
+Jane Austen,Jane Austen,place_of_birth,Steventon
+Steventon,Steventon,located_in,England
+Android,Android,developer,Android Inc.
+Android Inc.,Android Inc.,acquired_by,Google
+Birth (film),Birth (film),director,Jonathan Glazer
+Birth (film),Birth (film),release_year,2004
+Jonathan Glazer,Jonathan Glazer,place_of_birth,London
+Inception,Inception,genre,science fiction film
+Hans Zimmer,Hans Zimmer,occupation,film composer
+Google,Google,instance_of,technology company
+Jane Austen,Jane Austen,occupation,novelist

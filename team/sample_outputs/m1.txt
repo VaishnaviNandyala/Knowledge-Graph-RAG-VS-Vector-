@@ -1,0 +1,37 @@
+
+======================================================================
+1. Is my data in the agreed format (contract C1)?
+======================================================================
+OK: format is correct
+
+======================================================================
+2. What is in the data? (these numbers go in Table 1 of the paper)
+======================================================================
+documents: 21 | sentences: 51 | avg sentences per document: 2.4
+questions: 9 | by type: {'bridge': 7, 'comparison': 2} | by hops: {2: 7, 3: 2}
+
+======================================================================
+3. Do the metrics behave? (check by hand that these make sense)
+======================================================================
+prediction       gold         EM     F1
+London           london        1   1.00
+The London.      London        1   1.00
+New York City    New York      0   0.80
+Paris            London        0   0.00
+-> EM ignores case, punctuation and 'the'. F1 gives partial credit for overlapping words.
+
+======================================================================
+4. Bootstrap confidence interval: why more questions matter
+======================================================================
+  10 questions: accuracy 0.70, 95% interval (0.40, 0.90), width 0.50
+ 100 questions: accuracy 0.50, 95% interval (0.40, 0.60), width 0.20
+ 500 questions: accuracy 0.61, 95% interval (0.57, 0.65), width 0.08
+-> the interval gets narrower with more questions. With 10 questions you cannot conclude anything.
+
+======================================================================
+5. Files for the others (written to team/M1_data_eval/outputs/)
+======================================================================
+- questions_subset.json       (5 questions, for quick tests by everyone)
+- question_ids_used.txt        (9 ids, goes in the paper appendix)
+- gold_triples_to_fill.csv     (20 sentences: YOU fill subject/relation/object by hand;
+                                 M2 uses it to measure extraction quality)

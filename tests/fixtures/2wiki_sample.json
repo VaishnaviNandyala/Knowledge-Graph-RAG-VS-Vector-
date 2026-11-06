@@ -1,0 +1,169 @@
+[
+ {
+  "_id": "t001",
+  "type": "compositional",
+  "question": "Where was the director of film Inception born?",
+  "answer": "London",
+  "context": [
+   [
+    "Inception",
+    [
+     "Inception is a film.",
+     "It was directed by Christopher Nolan."
+    ]
+   ],
+   [
+    "Christopher Nolan",
+    [
+     "Christopher Nolan is a filmmaker.",
+     "He was born in London."
+    ]
+   ],
+   [
+    "Interstellar",
+    [
+     "Interstellar is a film.",
+     "It was directed by Christopher Nolan."
+    ]
+   ]
+  ],
+  "supporting_facts": [
+   [
+    "Inception",
+    1
+   ],
+   [
+    "Christopher Nolan",
+    1
+   ]
+  ],
+  "evidences": [
+   [
+    "Inception",
+    "director",
+    "Christopher Nolan"
+   ],
+   [
+    "Christopher Nolan",
+    "place of birth",
+    "London"
+   ]
+  ]
+ },
+ {
+  "_id": "t002",
+  "type": "comparison",
+  "question": "Which film came out first, Inception or Interstellar?",
+  "answer": "Inception",
+  "context": [
+   [
+    "Inception",
+    [
+     "Inception is a film.",
+     "It was released in 2010."
+    ]
+   ],
+   [
+    "Interstellar",
+    [
+     "Interstellar is a film.",
+     "It was released in 2014."
+    ]
+   ]
+  ],
+  "supporting_facts": [
+   [
+    "Inception",
+    1
+   ],
+   [
+    "Interstellar",
+    1
+   ]
+  ],
+  "evidences": [
+   [
+    "Inception",
+    "publication date",
+    "2010"
+   ],
+   [
+    "Interstellar",
+    "publication date",
+    "2014"
+   ]
+  ]
+ },
+ {
+  "_id": "t003",
+  "type": "bridge_comparison",
+  "question": "Which film has the director born earlier, Inception or Birth?",
+  "answer": "Birth",
+  "context": [
+   [
+    "Inception",
+    [
+     "It was directed by Christopher Nolan."
+    ]
+   ],
+   [
+    "Birth (film)",
+    [
+     "It was directed by Jonathan Glazer."
+    ]
+   ],
+   [
+    "Christopher Nolan",
+    [
+     "He was born in 1970."
+    ]
+   ],
+   [
+    "Jonathan Glazer",
+    [
+     "He was born in 1965."
+    ]
+   ]
+  ],
+  "supporting_facts": [
+   [
+    "Inception",
+    0
+   ],
+   [
+    "Birth (film)",
+    0
+   ],
+   [
+    "Christopher Nolan",
+    0
+   ],
+   [
+    "Jonathan Glazer",
+    0
+   ]
+  ],
+  "evidences": [
+   [
+    "Inception",
+    "director",
+    "Christopher Nolan"
+   ],
+   [
+    "Birth",
+    "director",
+    "Jonathan Glazer"
+   ],
+   [
+    "Christopher Nolan",
+    "date of birth",
+    "1970"
+   ],
+   [
+    "Jonathan Glazer",
+    "date of birth",
+    "1965"
+   ]
+  ]
+ }
+]

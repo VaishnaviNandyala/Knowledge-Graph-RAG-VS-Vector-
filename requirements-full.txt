@@ -1,0 +1,12 @@
+# Real mode. Install on a machine with internet (Google Colab works well). Versions: use the latest compatible.
+numpy
+networkx
+spacy                 # then: python -m spacy download en_core_web_sm
+fastcoref             # neural coreference resolution
+transformers          # REBEL (relation extraction) and optional local LLM
+torch
+sentence-transformers # Sentence-BERT embeddings
+faiss-cpu             # vector search (optional: numpy fallback exists)
+datasets              # to download HotpotQA
+requests              # to call a local Ollama server
+streamlit             # demo app

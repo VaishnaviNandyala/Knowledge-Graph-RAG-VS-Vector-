@@ -1,0 +1,47 @@
+graph: {'nodes': 28, 'edges': 24} | extraction: {'documents': 21, 'raw_triples': 24, 'final_triples': 24, 'entities_before_normalisation': 30, 'entities_after': 28}
+
+=== Overall (Table 2 in the paper) ===
+system              n     EM      EM 95% CI     F1  SuppRecall  Abstain
+S0 LLM only         9   0.00     (0.0, 0.0)   0.00        0.00     1.00
+S1 Vector RAG       9   0.56   (0.22, 0.89)   0.56        0.69     0.44
+S2 KG-RAG           9   0.78    (0.44, 1.0)   0.78        0.93     0.22
+S3 Hybrid           9   0.78    (0.44, 1.0)   0.78        0.93     0.22
+S4 Oracle           9   1.00     (1.0, 1.0)   1.00        1.00     0.00
+
+=== By number of hops (Table 3) ===
+
+-- hops=2
+system              n     EM      EM 95% CI     F1  SuppRecall  Abstain
+S0 LLM only         7   0.00     (0.0, 0.0)   0.00        0.00     1.00
+S1 Vector RAG       7   0.71    (0.43, 1.0)   0.71        0.79     0.29
+S2 KG-RAG           7   1.00     (1.0, 1.0)   1.00        1.00     0.00
+S3 Hybrid           7   1.00     (1.0, 1.0)   1.00        1.00     0.00
+S4 Oracle           7   1.00     (1.0, 1.0)   1.00        1.00     0.00
+
+-- hops=3
+system              n     EM      EM 95% CI     F1  SuppRecall  Abstain
+S0 LLM only         2   0.00     (0.0, 0.0)   0.00        0.00     1.00
+S1 Vector RAG       2   0.00     (0.0, 0.0)   0.00        0.33     1.00
+S2 KG-RAG           2   0.00     (0.0, 0.0)   0.00        0.67     1.00
+S3 Hybrid           2   0.00     (0.0, 0.0)   0.00        0.67     1.00
+S4 Oracle           2   1.00     (1.0, 1.0)   1.00        1.00     0.00
+
+=== By question type (Table 4) ===
+
+-- type=bridge
+system              n     EM      EM 95% CI     F1  SuppRecall  Abstain
+S0 LLM only         7   0.00     (0.0, 0.0)   0.00        0.00     1.00
+S1 Vector RAG       7   0.43   (0.14, 0.86)   0.43        0.60     0.57
+S2 KG-RAG           7   0.71    (0.43, 1.0)   0.71        0.90     0.29
+S3 Hybrid           7   0.71    (0.43, 1.0)   0.71        0.90     0.29
+S4 Oracle           7   1.00     (1.0, 1.0)   1.00        1.00     0.00
+
+-- type=comparison
+system              n     EM      EM 95% CI     F1  SuppRecall  Abstain
+S0 LLM only         2   0.00     (0.0, 0.0)   0.00        0.00     1.00
+S1 Vector RAG       2   1.00     (1.0, 1.0)   1.00        1.00     0.00
+S2 KG-RAG           2   1.00     (1.0, 1.0)   1.00        1.00     0.00
+S3 Hybrid           2   1.00     (1.0, 1.0)   1.00        1.00     0.00
+S4 Oracle           2   1.00     (1.0, 1.0)   1.00        1.00     0.00
+
+Wrote results/predictions.csv and results/error_analysis_sheet.csv (8 failed rows to label by hand).

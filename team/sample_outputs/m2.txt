@@ -1,0 +1,36 @@
+
+======================================================================
+1. Running extraction: ner=toy, coref=toy, relation=toy
+======================================================================
+{'documents': 21, 'raw_triples': 24, 'final_triples': 24, 'entities_before_normalisation': 30, 'entities_after': 29}
+time: 0.00s for 21 documents (0 ms per document)
+saved 24 triples -> team/M2_extraction/outputs/triples.jsonl
+
+======================================================================
+2. Look at your triples (always read some by hand!)
+======================================================================
+  Inception | director | Christopher Nolan                      <- "Inception was directed by Christopher Nolan."
+  Inception | release_year | 2010                               <- "Inception was released in 2010."
+  Christopher Nolan | place_of_birth | London                   <- "Christopher Nolan was born in London."
+  London | located_in | United Kingdom                          <- "London is located in the United Kingdom."
+  Interstellar | director | Christopher Nolan                   <- "Interstellar was directed by Christopher Nolan."
+  Interstellar | release_year | 2014                            <- "Interstellar was released in 2014."
+  Inception (soundtrack) | composer | Hans Zimmer               <- "Inception (soundtrack) was composed by Hans Zimmer."
+  Inception (soundtrack) | release_year | 2010                  <- "Inception (soundtrack) was released in 2010."
+  Hans Zimmer | place_of_birth | Frankfurt                      <- "Hans Zimmer was born in Frankfurt."
+  Frankfurt | located_in | Germany                              <- "Frankfurt is located in Germany."
+
+relations used: {'release_year': 6, 'director': 5, 'place_of_birth': 5, 'located_in': 4, 'composer': 1, 'author': 1, 'developer': 1, 'acquired_by': 1}
+entity merges done by normalisation: [('Android Inc.', ['Android Inc'])]
+
+======================================================================
+3. Does my file follow contract C2? (M3 depends on it)
+======================================================================
+OK: format is correct
+
+======================================================================
+4. Quality against the gold file (precision = how many extracted are right; recall = how many gold found)
+======================================================================
+mode: strict | gold triples: 28 | extracted: 24
+precision 1.00 | recall 0.86 | F1 0.92      (these numbers go in Table 6 of the paper)
+examples the extractor MISSED: [('google', 'instance_of', 'technology company'), ('hans zimmer', 'occupation', 'film composer'), ('inception', 'genre', 'science fiction film'), ('jane austen', 'occupation', 'novelist')]

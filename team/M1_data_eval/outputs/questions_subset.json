@@ -1,0 +1,552 @@
+[
+ {
+  "id": "5ae16d9655429920d52343ce",
+  "question": " \"Collateral Damage\" is an episode of the television series \"Millennium\" and features the host of a late night talk show that airs how often?",
+  "answer": "seven nights a week",
+  "supporting_titles": [
+   "Coast to Coast AM",
+   "Collateral Damage (Millennium)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a89019a5542995153361259",
+  "question": "Mazda's Mazda6 belongs to which country's car manufacturer?",
+  "answer": "Japanese",
+  "supporting_titles": [
+   "Mazda6",
+   "Nissan Altima"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5abd259d55429924427fcf1a",
+  "question": "Are both Dictyosperma, and Huernia described as a genus?",
+  "answer": "yes",
+  "supporting_titles": [
+   "Dictyosperma",
+   "Huernia"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae2e06d55429928c4239521",
+  "question": " Both Vitas Gerulaitis and Heather Watson play what sport?",
+  "answer": "tennis player",
+  "supporting_titles": [
+   "Heather Watson",
+   "Vitas Gerulaitis"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ab57759554299637185c5a5",
+  "question": "Princess Marie-Clementine Bagration was the illegitimate daughter of the Austrian Empire's Foreign Minister whose resignation was forced by what?",
+  "answer": "the liberal revolutions of 1848",
+  "supporting_titles": [
+   "Klemens von Metternich",
+   "Marie-Clementine Bagration"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae1faf15542997f29b3c1e3",
+  "question": "William Davis Ticknor, Sr. served on the board of a chemical and biotechnology company created in what year?",
+  "answer": "1919",
+  "supporting_titles": [
+   "Commercial Solvents Corporation",
+   "William Davis Ticknor, Sr."
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac54cef5542993e66e822da",
+  "question": "Brian Newman's wife performs for what genre of variety show?",
+  "answer": "American burlesque",
+  "supporting_titles": [
+   "American burlesque",
+   "Brian Newman"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a79ced45542994bb94570cb",
+  "question": "What kind of ideology is Torment's drummer involved with?",
+  "answer": "neo-Nazi",
+  "supporting_titles": [
+   "National Socialist black metal",
+   "Torment (band)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae6529a55429929b0807b32",
+  "question": "Both WAGS Atlanta and WAGS are what?",
+  "answer": "American reality television series",
+  "supporting_titles": [
+   "WAGS (TV series)",
+   "WAGS Atlanta"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a74c6a655429974ef308c5d",
+  "question": "Who was born first Margaret Pellegrini or Jerry Maren?",
+  "answer": "Gerard Marenghi (born January 24, 1920)",
+  "supporting_titles": [
+   "Jerry Maren",
+   "Margaret Pellegrini"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8456ef5542990548d0b289",
+  "question": "What baseball team, part of the ten-school collegiate athletic conference headquartered in Irving, Texas, was coached by Randy Mazey in 2016?",
+  "answer": "West Virginia Mountaineers",
+  "supporting_titles": [
+   "2016 West Virginia Mountaineers baseball team",
+   "Big 12 Conference"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7b1023554299042af8f6c2",
+  "question": " Which movie did Disney produce first,  The Many Adventures of Winnie the Pooh or Ride a Wild Pony?",
+  "answer": "Ride a Wild Pony",
+  "supporting_titles": [
+   "Ride a Wild Pony",
+   "The Many Adventures of Winnie the Pooh"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a7fcd9c5542992e7d278da9",
+  "question": "What town, with a population of 4,688 in 2010, is the KHNK radio station located in?",
+  "answer": "Columbia Falls, Montana",
+  "supporting_titles": [
+   "Columbia Falls, Montana",
+   "KHNK"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a832f9d5542993344745fe4",
+  "question": "What tv series did Benny Ciaramello co-star in with a person that was also in the film \"The Bang-Bang Club\"?",
+  "answer": "Secrets and Lies",
+  "supporting_titles": [
+   "Benny Ciaramello",
+   "Ryan Phillippe"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7c25895542997c3ec972e6",
+  "question": "Arena Bowl XII included what team coached by current head coach of the Washington Redskins?",
+  "answer": "Orlando Predators",
+  "supporting_titles": [
+   "Arena Bowl XII",
+   "Jay Gruden"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae4606c5542996836b02c91",
+  "question": "Where was the company, of which David DeVoe is Chief Financial Officer, ranked in the world, in 2014, in terms of revenue, against similar types of company ?  ",
+  "answer": "fourth-largest",
+  "supporting_titles": [
+   "David DeVoe",
+   "News Corporation"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab8903555429916710eb08e",
+  "question": "What city is the flying component of the United States Air Force 432d Wing stationed in",
+  "answer": "Clark County",
+  "supporting_titles": [
+   "432d Operations Group",
+   "Creech Air Force Base"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae608f2554299546bf83026",
+  "question": "Which system of mountains in eastern North America is Hamburg Mountains a range region of",
+  "answer": "The Appalachian Mountains",
+  "supporting_titles": [
+   "Appalachian Mountains",
+   "Hamburg Mountains (New Jersey)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a79e1275542990198eaefe7",
+  "question": "The 19 high-rise commercial buildings covering 22 acres between 48th and 51st Streets in New York City feature which style of architecture?",
+  "answer": "The Art Deco style",
+  "supporting_titles": [
+   "Art Deco in the United States",
+   "Rockefeller Center"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab21c3b554299722f9b4cb4",
+  "question": "What citizen was the author of Bimbos of the Death Sun?",
+  "answer": "American",
+  "supporting_titles": [
+   "Bimbos of the Death Sun",
+   "Sharyn McCrumb"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae4ad375542995dadf243a4",
+  "question": "The home video game console that was developed by Sony Computer Entertainment is a platform for a racing video game developed by who?",
+  "answer": "Sony Studio Liverpool",
+  "supporting_titles": [
+   "Formula One 2001 (video game)",
+   "PlayStation 2"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5abea7c25542990832d3a068",
+  "question": "The State Theatre is part of a performing arts centre located in what Australian suburb?",
+  "answer": "Southbank",
+  "supporting_titles": [
+   "Arts Centre Melbourne",
+   "State Theatre (Melbourne)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8077ca5542992bc0c4a729",
+  "question": "Abraham Lokin was born on an archipelago between the Norwegian Sea and North Atlantic, that is about 200 miles north-northwest of where?",
+  "answer": "Scotland",
+  "supporting_titles": [
+   "Abraham L\u00f8kin",
+   "Faroe Islands"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae4957155429970de88d9bc",
+  "question": "Who has the highest scope of profession in Peter Yates or Jang Joon-hwan ",
+  "answer": "Peter James Yates",
+  "supporting_titles": [
+   "Jang Joon-hwan",
+   "Peter Yates"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5adc3a7055429947ff173913",
+  "question": "What is the nationality of the poet who wrote Une Tempete and first performed it in Tunisia?",
+  "answer": "French",
+  "supporting_titles": [
+   "Aim\u00e9 C\u00e9saire",
+   "Une Temp\u00eate"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae635505542992ae0d16282",
+  "question": "Where was the comedian from And There's More born? ",
+  "answer": "Rochdale, North West England",
+  "supporting_titles": [
+   "And There's More",
+   "Jimmy Cricket"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8b56d655429949d91db557",
+  "question": "The remaining two seasons of Kenan & Kel were filmed at which stage facility located at 6230 Sunset Boulevard in Hollywood, California?",
+  "answer": "Nick on Sunset",
+  "supporting_titles": [
+   "Kenan &amp; Kel",
+   "Nickelodeon on Sunset"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a74167455429929fddd83dc",
+  "question": "On which continent did Pia Miller make her appearance, in the teen magazine, Dolly?",
+  "answer": "Australia",
+  "supporting_titles": [
+   "Dolly (magazine)",
+   "Pia Miller"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8e06785542995085b37383",
+  "question": "The name of the Japanese rock band T-Bolan was inspired by the name of an English rock band formed in what year?",
+  "answer": "1967",
+  "supporting_titles": [
+   "T-Bolan",
+   "T. Rex (band)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8e0dbd554299068b959e3e",
+  "question": "What type of media does Hot Pixel and PlayStation Portable have in common?",
+  "answer": "video game",
+  "supporting_titles": [
+   "Hot Pixel",
+   "PlayStation Portable"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8b349a55429971feec466b",
+  "question": "Are Mobile Regional Airport and Hoonah Airport located in California?",
+  "answer": "no",
+  "supporting_titles": [
+   "Hoonah Airport",
+   "Mobile Regional Airport"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5adf9ea05542992d7e9f93bf",
+  "question": "What running back ended his career in 2006 and was one of the rushers Matt O'Dwyer blocked for?",
+  "answer": "Curtis Martin",
+  "supporting_titles": [
+   "Curtis Martin",
+   "Matt O'Dwyer"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae37ec25542990afbd1e178",
+  "question": "what is the football club that formed in 1876 and has Dael Jonathan Fry as a player?",
+  "answer": "Middlesbrough",
+  "supporting_titles": [
+   "Dael Fry",
+   "Middlesbrough F.C."
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a74c85055429916b0164218",
+  "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+  "answer": "Alistair Grant",
+  "supporting_titles": [
+   "Alistair Grant",
+   "British people"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7270395542992359bc30a8",
+  "question": "When was the city George Consider Hale was born in founded?",
+  "answer": "in the 1830s",
+  "supporting_titles": [
+   "George C. Hale",
+   "Kansas City, Missouri"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae7e1fc55429952e35ea9cc",
+  "question": "What color clothing do people of the Netherlands wear during Oranjegekte or to celebrate the national holiday Koningsdag? ",
+  "answer": "orange",
+  "supporting_titles": [
+   "Koningsdag",
+   "Oranjegekte"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a85ac1e5542997b5ce4001f",
+  "question": "What is the alcohol content of the drink normally consumed alongside Rippchen?",
+  "answer": "4.8%\u20137.0%",
+  "supporting_titles": [
+   "Apfelwein",
+   "Frankfurter Rippchen"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7280925542991f9a20c4a1",
+  "question": "Pok\u00e9mon: Arceus and the Jewel of Life and Totally Spies! The Movie both released in what year?",
+  "answer": "2009",
+  "supporting_titles": [
+   "Pok\u00e9mon: Arceus and the Jewel of Life",
+   "Totally Spies! The Movie"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae6316d5542996de7b71b87",
+  "question": "Which FC Barcelona signee was a contender for the Rookie of the Year Award when he played for the Timberwolves?",
+  "answer": "Ricard Rubio i Vives",
+  "supporting_titles": [
+   "2011\u201312 Minnesota Timberwolves season",
+   "Ricky Rubio"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7f677455429969796c1a37",
+  "question": "Were Stanley Kubrick and Elio Petri from different countries?",
+  "answer": "yes",
+  "supporting_titles": [
+   "Elio Petri",
+   "Stanley Kubrick"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a86ed6155429960ec39b6d9",
+  "question": "In what year was the American country rock band who's number one song was done as a cover on the album \"What If?\" founded?",
+  "answer": "1966",
+  "supporting_titles": [
+   "Nitty Gritty Dirt Band",
+   "What If? (Emerson Drive album)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae1b943554299492dc91b7f",
+  "question": "Are Macheng and Lianjiang, Guangdong both cities ?",
+  "answer": "yes",
+  "supporting_titles": [
+   "Lianjiang, Guangdong",
+   "Macheng"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a79f6ca554299029c4b5f90",
+  "question": "What Danish eurodance group had a single called \"Barbie Girl\" which resulted in a lawsuit in 2002?",
+  "answer": "Aqua",
+  "supporting_titles": [
+   "Aqua (band)",
+   "Mattel, Inc. v. MCA Records, Inc."
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8b40b055429949d91db50c",
+  "question": "John Michael Montgomery has had more than 30 singles on the \"Billboard\" country music charts, but what single from his fourth studio album What I Do the Best never reached the top ten on the Hot Country Songs charts?",
+  "answer": "\"Ain't Got Nothin' on Us\"",
+  "supporting_titles": [
+   "John Michael Montgomery",
+   "What I Do the Best"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7e0ed25542991319bc9424",
+  "question": "The 249th episode of \"The Simpsons\" was aired on what date?",
+  "answer": "November 1, 2000",
+  "supporting_titles": [
+   "The Simpsons (season 12)",
+   "Treehouse of Horror XI"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab865195542990e739ec8e3",
+  "question": "The 2008 Football League Championship play-off Final was won by Hull City after a 38th minute goal from a striker who currently plays for who?",
+  "answer": "AFC",
+  "supporting_titles": [
+   "2008 Football League Championship play-off Final",
+   "Dean Windass"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab9dd4c554299232ef4a22f",
+  "question": "Who was part of more music bands, Alison Mosshart or Ann Wilson?",
+  "answer": "Alison Nicole Mosshart",
+  "supporting_titles": [
+   "Alison Mosshart",
+   "Ann Wilson"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a75377c55429929fddd8514",
+  "question": "Which Australian professional women's basketball team has an American playing in it?",
+  "answer": "Adelaide Lightning",
+  "supporting_titles": [
+   "Adelaide Lightning",
+   "Colleen Planeta"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae1319c55429920d5234301",
+  "question": "The tap dancing soloist in My Feet Keep Dancing also starred in what 1935 MGM musical?",
+  "answer": "\"An All-Colored Vaudeville Show\"",
+  "supporting_titles": [
+   "Fayard Nicholas",
+   "My Feet Keep Dancing"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae4e2ca55429908b63264aa",
+  "question": "Who founded the company that Robinsons-May is a subsidiary of ?",
+  "answer": "David May",
+  "supporting_titles": [
+   "Robinsons-May",
+   "The May Department Stores Company"
+  ],
+  "type": "bridge",
+  "hops": 2
+ }
+]

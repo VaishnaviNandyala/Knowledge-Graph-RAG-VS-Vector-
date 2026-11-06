@@ -1,0 +1,552 @@
+[
+ {
+  "id": "5a8fab8c5542995b4424208a",
+  "question": "Who set Nietzche's philosophical novel to music? ",
+  "answer": "Richard Strauss",
+  "supporting_titles": [
+   "Also sprach Zarathustra (Strauss)",
+   "Thus Spoke Zarathustra"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ade66e1554299728e26c713",
+  "question": "What years did Jose Gonzalo Rodriguez Gacha and other leaders of fthe Medallin Cartel operate in Boliva, Colombia, Central America, Peru, the United States, Canada, and Europe?",
+  "answer": "1970s and 1980s",
+  "supporting_titles": [
+   "Jos\u00e9 Gonzalo Rodr\u00edguez Gacha",
+   "Medell\u00edn Cartel"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab680d15542995eadef0011",
+  "question": "Which is a flowering plant, Pueraria or Pleiospilos?",
+  "answer": "Pleiospilos",
+  "supporting_titles": [
+   "Pleiospilos",
+   "Pueraria"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a808f96554299485f598655",
+  "question": "Vasily Agapkin's most well-known march was written in honor of what event?",
+  "answer": "the Slavic women accompanying their husbands in the First Balkan War.",
+  "supporting_titles": [
+   "Farewell of Slavianka",
+   "Vasily Agapkin"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a803d695542996402f6a494",
+  "question": "What is the main difference between the game Plateau and the game Colt Express?",
+  "answer": "Colt Express is a railway-themed",
+  "supporting_titles": [
+   "Colt Express",
+   "Plateau (game)"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae3dc205542992f92d823a1",
+  "question": "The Column of Saint Zanobi  is a monumental marble column located just north of religious building with the status of what?",
+  "answer": "a minor basilica",
+  "supporting_titles": [
+   "Colonna di San Zanobi, Florence",
+   "Florence Baptistery"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac3d667554299076e296ca5",
+  "question": "Which dog is based in Switzerland, Appenzeller Sennenhund or Drentse Patrijshond?",
+  "answer": "Appenzeller Sennenhund",
+  "supporting_titles": [
+   "Appenzeller Sennenhund",
+   "Drentse Patrijshond"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae1e11c554299234fd04335",
+  "question": "Both Neijiang and Weifang and considered what type of city?",
+  "answer": "a prefecture-level city",
+  "supporting_titles": [
+   "Neijiang",
+   "Weifang"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5abd455c55429924427fcf5a",
+  "question": "What does Age of Chance and Vector share in common? ",
+  "answer": "was a rock band",
+  "supporting_titles": [
+   "Age of Chance",
+   "Vector (band)"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a7ea14655429930675135ab",
+  "question": "What giant silverware company was started as a religious Utopian group and was for many years run by Pierrepont Noyes?",
+  "answer": "Oneida Limited",
+  "supporting_titles": [
+   "Oneida Community",
+   "Pierrepont Noyes"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae707a25542991bbc9761a7",
+  "question": "How many Grands Prix wins did the Formula One driver from Brazil that holds the record for the most races contested score?",
+  "answer": "11",
+  "supporting_titles": [
+   "Formula One drivers from Brazil",
+   "Rubens Barrichello"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac0a18a5542992a796ded41",
+  "question": "What genre did the writer whose novel was based on \"I'll Take Manhattan\" writes?",
+  "answer": "romance genre",
+  "supporting_titles": [
+   "I'll Take Manhattan (miniseries)",
+   "Judith Krantz"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a735e9155429901807db00d",
+  "question": "What country is home to both Guadarrama National Park and Do\u00f1ana National Park? ",
+  "answer": "Spain",
+  "supporting_titles": [
+   "Do\u00f1ana National Park",
+   "Guadarrama National Park"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae356045542990afbd1e10d",
+  "question": "What city has a football team and had a player from Pago Pago, American Samoa play for it?",
+  "answer": "He is from Pago Pago, American Samoa and played college football at Oregon.",
+  "supporting_titles": [
+   "Matt Toeaina",
+   "Oregon Ducks football"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a74760b55429974ef308c03",
+  "question": "Which composer was born first out of Gaspare Spontini and Wolfgang Amadeus Mozart?",
+  "answer": "Gaspare Luigi Pacifico Spontini",
+  "supporting_titles": [
+   "Gaspare Spontini",
+   "Wolfgang Amadeus Mozart"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a7c6c9d554299683c1c6302",
+  "question": "In what county was Duffy Jackson born?",
+  "answer": "Nassau County",
+  "supporting_titles": [
+   "Duffy Jackson",
+   "Freeport, New York"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae72c7d5542991e8301cb91",
+  "question": "A sparse image is used by the FileVault feature in Mac OS X in versions later than which?",
+  "answer": "Mac OS X 10.3",
+  "supporting_titles": [
+   "FileVault",
+   "Sparse image"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac2c22e5542990b17b15485",
+  "question": "The Fort Worth Zoo was rated as one of the top zoos by a magazine published where? ",
+  "answer": "Birmingham, Alabama",
+  "supporting_titles": [
+   "Fort Worth Zoo",
+   "Southern Living"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5abb2a5f5542996cc5e49fca",
+  "question": "What is the name of the hotel on the Upper West Side of New York City that housed a gay bathhouse?",
+  "answer": "The Ansonia Hotel",
+  "supporting_titles": [
+   "Continental Baths",
+   "The Ansonia"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab66b63554299110f219a0a",
+  "question": "The Transylvanian Hound and Jack Russell Terrier were originally bred for what activity?",
+  "answer": "hunting",
+  "supporting_titles": [
+   "Jack Russell Terrier",
+   "Transylvanian Hound"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ae1faf15542997f29b3c1e3",
+  "question": "William Davis Ticknor, Sr. served on the board of a chemical and biotechnology company created in what year?",
+  "answer": "1919",
+  "supporting_titles": [
+   "Commercial Solvents Corporation",
+   "William Davis Ticknor, Sr."
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab29956554299194fa9342d",
+  "question": "The 1989 Batman film was produced by Jon Peters and a man that is the CEO of what company?",
+  "answer": "Mandalay Entertainment",
+  "supporting_titles": [
+   "Batman (1989 film)",
+   "Peter Guber"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8cfa2e554299585d9e378b",
+  "question": "What career did the British actor born in 1965  and star of Lock, Stock and Two Smoking Barrels have before acting?",
+  "answer": "professional footballer",
+  "supporting_titles": [
+   "Lock, Stock and Two Smoking Barrels",
+   "Vinnie Jones"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac51a055542994611c8b390",
+  "question": "What is the name of one the ex-security officials that means The Institute?",
+  "answer": "Mossad",
+  "supporting_titles": [
+   "Commanders for Israel's Security",
+   "Mossad"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7415cf55429979e28828a6",
+  "question": "When did the person who claimed that Fidel Castro was killed in the 26th July Movement but was proven wrong by Herbert Matthews first serve as President of Cuba?",
+  "answer": "1940",
+  "supporting_titles": [
+   "Fulgencio Batista",
+   "Herbert Matthews"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a861c0d5542994775f606f7",
+  "question": "C. Bernard Jackson founded the center that started the career of which actor, who played the part of Marty Castillo in \"Miami Vice\"?",
+  "answer": "Edward James Olmos",
+  "supporting_titles": [
+   "C. Bernard Jackson",
+   "Edward James Olmos"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ade99ad554299728e26c75d",
+  "question": "How many acts is the ballet Rita Sangalli premiered in, in the year 1876?",
+  "answer": "two or three acts",
+  "supporting_titles": [
+   "Rita Sangalli",
+   "Sylvia (ballet)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8f0986554299458435d535",
+  "question": "Gerd Neggo trained under the founder of which type of dance analysis?",
+  "answer": "Laban Movement Analysis",
+  "supporting_titles": [
+   "Gerd Neggo",
+   "Rudolf von Laban"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7a4f335542990198eaf11e",
+  "question": "Who is from farther west, Kings of Convenience or Belle and Sebastian?",
+  "answer": "Belle and Sebastian",
+  "supporting_titles": [
+   "Belle and Sebastian",
+   "Kings of Convenience"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5ab4da5b55429942dd415f96",
+  "question": "Are Floor Jansen and John McCrea from the same band?",
+  "answer": "no",
+  "supporting_titles": [
+   "Floor Jansen",
+   "John McCrea (musician)"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5abe67ae5542991f6610616b",
+  "question": "What is the name of the region that includes the cities Dover and Portsmouth, New Hampshire?",
+  "answer": "Seacoast Region",
+  "supporting_titles": [
+   "Dover, New Hampshire",
+   "Seacoast Region (New Hampshire)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a81418455429903bc27b95f",
+  "question": "Who is the mother of the Texas business man that co-founded Ignite! Learning, Inc?",
+  "answer": "Barbara Bush",
+  "supporting_titles": [
+   "Ignite!",
+   "Neil Bush"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7982435542994bb945701f",
+  "question": "What was the formal name of the building that housed the scene that formed the band Hjertestop?",
+  "answer": "Folkets",
+  "supporting_titles": [
+   "Hjertestop",
+   "Ungdomshuset"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ac2509755429951e9e68543",
+  "question": "What is the nationality of the man who finished third in the 2016 Pau Grand Prix?",
+  "answer": "British",
+  "supporting_titles": [
+   "2016 Pau Grand Prix",
+   "George Russell (racing driver)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab576dc5542997d4ad1f13d",
+  "question": "Radha Jayalakshmi and the Priya sisters were both duo's in what music style? ",
+  "answer": "Carnatic music",
+  "supporting_titles": [
+   "Priya Sisters",
+   "Radha Jayalakshmi"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5adbd1d25542994650320bf6",
+  "question": "What is the current job of the former partner in ice skating of Vladimir Fedorov?",
+  "answer": "She currently works as a coach and choreographer",
+  "supporting_titles": [
+   "Anjelika Krylova",
+   "Vladimir Fedorov"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab865235542992aa3b8c8db",
+  "question": " Lucas da Silva Carvalho was an unused reserve runner for a Brazilian athletics track event which at top class events is run in lanes for the first what?",
+  "answer": "500 metres",
+  "supporting_titles": [
+   "4 \u00d7 400 metres relay",
+   "Lucas Carvalho"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a86ed6155429960ec39b6d9",
+  "question": "In what year was the American country rock band who's number one song was done as a cover on the album \"What If?\" founded?",
+  "answer": "1966",
+  "supporting_titles": [
+   "Nitty Gritty Dirt Band",
+   "What If? (Emerson Drive album)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae361d15542990afbd1e126",
+  "question": "What is the original surname for the actor who sang \"It's a De-Lovely\" in the 1962 revival of \"Anything Goes\"?",
+  "answer": "Lipshitz",
+  "supporting_titles": [
+   "Hal Linden",
+   "It's De-Lovely"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7d93945542990b8f5039b8",
+  "question": "Kurt Cobain: Montage of Heck documents the life of Cobain until his suicide in what state?",
+  "answer": "Washington",
+  "supporting_titles": [
+   "Kurt Cobain: Montage of Heck",
+   "Suicide of Kurt Cobain"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a760dcd5542994ccc9186a1",
+  "question": "What component was included on the iPad4 that is now a registered trademark in Jamaica? ",
+  "answer": "Retina Display",
+  "supporting_titles": [
+   "IPad (4th generation)",
+   "Retina Display"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a8367c1554299334474600e",
+  "question": "Which team did Lars Lunde play for when defeated for the 1987 European Cup Final?",
+  "answer": "Bayern Munich of West Germany",
+  "supporting_titles": [
+   "1987 European Cup Final",
+   "Lars Lunde"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a80ad19554299485f5986a8",
+  "question": "In addition to his role in The Fattest Man in Britain, Bobby Ball is best known for his half of the doublt act Cannon and Ball with which other comedian?",
+  "answer": "Tommy Cannon",
+  "supporting_titles": [
+   "Bobby Ball",
+   "The Fattest Man in Britain"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5a7633ff5542994ccc918712",
+  "question": "When was the Chief Aerodynamicist for the British supersonic land vehicle, whose goal is to match or exceed 1000 mph achieving a new world land speed record, born?",
+  "answer": "1932",
+  "supporting_titles": [
+   "Bloodhound SSC",
+   "Ron Ayers"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5abcf70b55429959677d6b7e",
+  "question": "Wrinkles is a song that was recorded by what American country and Christian country band that was founded in 1982?",
+  "answer": "Diamond Rio",
+  "supporting_titles": [
+   "Diamond Rio",
+   "Wrinkles (song)"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae629215542995703ce8b34",
+  "question": "What South Australian capital held UFC Fight Night 65 in May of 2015?",
+  "answer": "Adelaide",
+  "supporting_titles": [
+   "Adelaide Entertainment Centre",
+   "UFC Fight Night: Miocic vs. Hunt"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ab5ac345542992aa134a37f",
+  "question": "Prominent Danish Tibetologist Per Kjeld S\u00f8rensen is a professor of Central Asian Studies at Leipzig University that was founded by who?",
+  "answer": "Frederick I, Elector of Saxony",
+  "supporting_titles": [
+   "Leipzig University",
+   "Per K. S\u00f8rensen"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae3f1bb5542995ad6573cbe",
+  "question": "Which is a type of herb, Brassia or Achimenes?",
+  "answer": "Achimenes",
+  "supporting_titles": [
+   "Achimenes",
+   "Brassia"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "5a8b56d655429949d91db557",
+  "question": "The remaining two seasons of Kenan & Kel were filmed at which stage facility located at 6230 Sunset Boulevard in Hollywood, California?",
+  "answer": "Nick on Sunset",
+  "supporting_titles": [
+   "Kenan &amp; Kel",
+   "Nickelodeon on Sunset"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "5ae4a2e25542996836b02cee",
+  "question": "The county that the community of Milltown, Montana is part of was founded in which year?",
+  "answer": "1860",
+  "supporting_titles": [
+   "Milltown, Montana",
+   "Missoula County, Montana"
+  ],
+  "type": "bridge",
+  "hops": 2
+ }
+]

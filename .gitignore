@@ -1,0 +1,62 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# ---- virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- secrets (never commit these) ----
+.env
+*.key
+secrets.*
+
+# ---- Jupyter / Colab ----
+.ipynb_checkpoints/
+
+# ---- editor and OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- big model files and caches ----
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.faiss
+*.index
+.cache/
+huggingface/
+wandb/
+
+# ---- logs ----
+*.log
+nohup.out
+
+# ---- raw downloaded data (only the converted data/hotpot, data/2wiki files are shared) ----
+data/raw/
+data/*_raw/
+
+# ---- generated outputs of each member's script ----
+team/*/outputs/*
+!team/*/outputs/.gitkeep
+# ...except M1's hand-off files, which others need:
+!team/M1_data_eval/outputs/questions_subset.json
+!team/M1_data_eval/outputs/question_ids_used.txt
+!team/M1_data_eval/outputs/gold_triples.csv
+# M2: uncomment the next line ONLY if the team agrees to commit the triples file (check its size first)
+# !team/M2_extraction/outputs/triples.jsonl
+
+# ---- generated experiment results (final frozen tables go in results/final/) ----
+results/*
+!results/.gitkeep
+!results/final/
+!results/final/**
