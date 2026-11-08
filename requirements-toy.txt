@@ -1,0 +1,3 @@
+# Toy mode (offline, no downloads): only these two
+numpy
+networkx

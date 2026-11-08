@@ -1,0 +1,43 @@
+
+======================================================================
+1. Loading triples
+======================================================================
+loaded 24 triples from team/M2_extraction/outputs/triples.jsonl
+
+======================================================================
+2. The graph (numbers for Table 1 of the paper)
+======================================================================
+{'nodes': 29, 'edges': 24} | average connections per node: 1.66
+biggest hubs (many connections = possible noise): [('Christopher Nolan', 3), ('London', 3), ('Inception', 2), ('2010', 2), ('Interstellar', 2)]
+nodes that might be the SAME entity (check by hand, tell M2/M3): none found
+
+======================================================================
+3. Retrieval test: 9 questions, 2 hops (no LLM needed here)
+======================================================================
+qid  hops recall  linked entities -> found supporting docs
+q1      2   1.00  ['Inception'] -> ['Christopher Nolan', 'Inception']
+q2      2   1.00  ['The Godfather'] -> ['Francis Ford Coppola', 'The Godfather']
+q3      2   1.00  ['Pride and Prejudice'] -> ['Jane Austen', 'Pride and Prejudice']
+q4      2   1.00  ['Android'] -> ['Android', 'Android Inc.']
+q5      2   1.00  ['Birth (film)'] -> ['Birth (film)', 'Jonathan Glazer']
+q6      2   1.00  ['Inception', 'Interstellar'] -> ['Inception', 'Interstellar']
+q7      2   1.00  ['The Godfather', 'Birth (film)'] -> ['Birth (film)', 'The Godfather']
+q8      3   0.67  ['Inception'] -> ['Christopher Nolan', 'Inception']
+q9      3   0.67  ['The Godfather'] -> ['Francis Ford Coppola', 'The Godfather']
+
+mean supporting recall: 0.93
+
+======================================================================
+4. Hop-depth ablation (retrieval only). Table 5 of the paper.
+======================================================================
+hops=1: mean supporting recall = 0.57
+hops=2: mean supporting recall = 0.93
+hops=3: mean supporting recall = 1.00
+-> more hops reach more facts, but also pull in more noise. Find the best depth for YOUR data.
+
+======================================================================
+5. Does my retriever follow contract C3? (M5 depends on it)
+======================================================================
+OK
+
+saved team/M3_graph/outputs/kg_retrieval.csv

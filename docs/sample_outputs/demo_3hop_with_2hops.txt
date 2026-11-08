@@ -1,0 +1,78 @@
+
+==============================================================================
+STAGE 1 - INFORMATION EXTRACTION on one document
+==============================================================================
+Document: Inception
+
+  original : Inception is a science fiction film.
+  coref    : Inception is a science fiction film.
+  entities : ['Inception']
+  triples  : []
+
+  original : It was directed by Christopher Nolan.
+  coref    : Inception was directed by Christopher Nolan.
+  entities : ['Inception', 'Christopher Nolan']
+  triples  : [('Inception', 'director', 'Christopher Nolan')]
+
+  original : It was released in 2010.
+  coref    : Inception was released in 2010.
+  entities : ['Inception']
+  triples  : [('Inception', 'release_year', '2010')]
+
+  original : The film follows a thief who steals secrets through dreams.
+  coref    : The film follows a thief who steals secrets through dreams.
+  entities : []
+  triples  : []
+
+==============================================================================
+STAGE 2 - WHOLE CORPUS: triples, normalisation, graph
+==============================================================================
+{'documents': 21, 'raw_triples': 24, 'final_triples': 24, 'entities_before_normalisation': 30, 'entities_after': 29}
+entity merges done by normalisation: [('Android Inc.', ['Android Inc'])]
+graph: {'nodes': 29, 'edges': 24}
+first 8 triples:
+    Inception | director | Christopher Nolan
+    Inception | release_year | 2010
+    Christopher Nolan | place_of_birth | London
+    London | located_in | United Kingdom
+    Interstellar | director | Christopher Nolan
+    Interstellar | release_year | 2014
+    Inception (soundtrack) | composer | Hans Zimmer
+    Inception (soundtrack) | release_year | 2010
+
+==============================================================================
+STAGE 3 - QUESTION: In which country was the director of Inception born?
+==============================================================================
+[Vector RAG] similarity ranking (top 6 chunks): [('Jonathan Glazer', 0.321), ('Francis Ford Coppola', 0.279), ('Inception (soundtrack)', 0.279), ('Inception', 0.258), ('Jane Austen', 0.117), ('Hans Zimmer', 0.115)]
+[Vector RAG] context sent to the LLM:
+   ### Jonathan Glazer
+   Jonathan Glazer is a British film director.
+   He was born in London.
+   ### Francis Ford Coppola
+   Francis Ford Coppola is an American film director.
+   He was born in Detroit.
+   ### Inception (soundtrack)
+   The Inception soundtrack features music for the film.
+   It was composed by Hans Zimmer.
+   It was released in 2010.
+
+[KG-RAG] question entities linked to graph nodes: ['Inception'] | unlinked: []
+[KG-RAG] 5 candidate facts within 2 hops; context sent to the LLM:
+   hop1  Inception --director--> Christopher Nolan
+   hop1  Inception --release_year--> 2010
+   hop2  Inception (soundtrack) --release_year--> 2010
+   hop2  Interstellar --director--> Christopher Nolan
+   hop2  Christopher Nolan --place_of_birth--> London
+
+==============================================================================
+STAGE 4 - ANSWERS (same LLM, same prompt, same word budget)
+==============================================================================
+gold answer: United Kingdom
+
+S0 LLM only      -> insufficient information     supporting docs found: []
+S1 Vector RAG    -> insufficient information     supporting docs found: []
+S2 KG-RAG        -> insufficient information     supporting docs found: ['Christopher Nolan', 'Inception']
+S3 Hybrid        -> insufficient information     supporting docs found: ['Christopher Nolan', 'Inception']
+S4 Oracle        -> United Kingdom               supporting docs found: ['Christopher Nolan', 'Inception', 'London']
+
+NOTE: the LLM here is a rule-based stand-in (MockLLM). The toy numbers illustrate the mechanism; they are NOT research results.

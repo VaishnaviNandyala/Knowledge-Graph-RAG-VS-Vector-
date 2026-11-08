@@ -1,0 +1,27 @@
+
+======================================================================
+1. Building the vector index
+======================================================================
+21 documents -> 21 chunks | embedder=tfidf | index time 0.00s
+
+======================================================================
+2. Is the LLM working (contract C4) and the retriever (contract C3)?
+======================================================================
+LLM: OK
+Retriever: OK
+
+======================================================================
+3. Running S0 (nothing), S1 (vector RAG), S4 (oracle) on 9 questions
+======================================================================
+system               EM     F1  SuppRecall  Abstain
+S0 LLM only        0.00   0.00        0.00     1.00
+S1 Vector RAG      0.56   0.56        0.69     0.44
+S4 Oracle          1.00   1.00        1.00     0.00
+-> S4 (oracle) is the ceiling for the LLM. If S4 is low, the LLM or the prompt is the problem, not retrieval.
+
+======================================================================
+4. Cost numbers (Table 7 of the paper)
+======================================================================
+index time: 0.00s | retrieval latency: 0.1 ms/question | context size: 58 words (budget 120)
+LLM cache: 0 answers reused, 28 new LLM calls  (run again: new calls should be 0)
+cache saved: team/M4_vector_llm/outputs/llm_cache.json

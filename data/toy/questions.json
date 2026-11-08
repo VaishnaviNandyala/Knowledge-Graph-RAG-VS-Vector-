@@ -1,0 +1,103 @@
+[
+ {
+  "id": "q1",
+  "question": "Where was the director of Inception born?",
+  "answer": "London",
+  "supporting_titles": [
+   "Inception",
+   "Christopher Nolan"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "q2",
+  "question": "Where was the director of The Godfather born?",
+  "answer": "Detroit",
+  "supporting_titles": [
+   "The Godfather",
+   "Francis Ford Coppola"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "q3",
+  "question": "Where was the author of Pride and Prejudice born?",
+  "answer": "Steventon",
+  "supporting_titles": [
+   "Pride and Prejudice",
+   "Jane Austen"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "q4",
+  "question": "Which company acquired the startup that developed Android?",
+  "answer": "Google",
+  "supporting_titles": [
+   "Android",
+   "Android Inc."
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "q5",
+  "question": "Where was the director of Birth born?",
+  "answer": "London",
+  "supporting_titles": [
+   "Birth (film)",
+   "Jonathan Glazer"
+  ],
+  "type": "bridge",
+  "hops": 2
+ },
+ {
+  "id": "q6",
+  "question": "Which film was released earlier, Inception or Interstellar?",
+  "answer": "Inception",
+  "supporting_titles": [
+   "Inception",
+   "Interstellar"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "q7",
+  "question": "Which film was released earlier, The Godfather or Birth?",
+  "answer": "The Godfather",
+  "supporting_titles": [
+   "The Godfather",
+   "Birth (film)"
+  ],
+  "type": "comparison",
+  "hops": 2
+ },
+ {
+  "id": "q8",
+  "question": "In which country was the director of Inception born?",
+  "answer": "United Kingdom",
+  "supporting_titles": [
+   "Inception",
+   "Christopher Nolan",
+   "London"
+  ],
+  "type": "bridge",
+  "hops": 3
+ },
+ {
+  "id": "q9",
+  "question": "In which country was the director of The Godfather born?",
+  "answer": "United States",
+  "supporting_titles": [
+   "The Godfather",
+   "Francis Ford Coppola",
+   "Detroit"
+  ],
+  "type": "bridge",
+  "hops": 3
+ }
+]

@@ -1,0 +1,33 @@
+
+======================================================================
+1. Contract check: do all parts fit together?
+======================================================================
+ALL CONTRACTS OK
+
+======================================================================
+2. Running all five systems with one shared LLM (answers cached)
+======================================================================
+graph: {'nodes': 29, 'edges': 24} | triples: 24
+LLM cache: 0 reused, 45 new calls
+
+======================================================================
+3. Writing the tables for the paper
+======================================================================
+| System | n | EM | EM 95% CI | F1 | Supp. recall | Abstain |
+|---|---|---|---|---|---|---|
+| S0 LLM only | 9 | 0.00 | (0.00, 0.00) | 0.00 | 0.00 | 1.00 |
+| S1 Vector RAG | 9 | 0.56 | (0.22, 0.89) | 0.56 | 0.69 | 0.44 |
+| S2 KG-RAG | 9 | 0.78 | (0.44, 1.00) | 0.78 | 0.93 | 0.22 |
+| S3 Hybrid | 9 | 0.78 | (0.44, 1.00) | 0.78 | 0.93 | 0.22 |
+| S4 Oracle | 9 | 1.00 | (1.00, 1.00) | 1.00 | 1.00 | 0.00 |
+
+wrote results_tables.md, predictions.csv, error_analysis_sheet.csv (8 failures for the team to label, ~20 each)
+
+======================================================================
+4. Running the project tests
+======================================================================
+ok  test_metrics
+ok  test_entity_matching
+ok  test_rebel_parser
+ok  test_toy_pipeline_end_to_end
+ok  test_budget_is_not_mutated_by_hybrid
