@@ -1,0 +1,27 @@
+{
+  "docs": 4901,
+  "seconds": 1662.66,
+  "triples": 14133,
+  "ner": "spacy",
+  "coref": "fastcoref",
+  "relation": "rebel",
+  "rename": true,
+  "strict": {
+    "mode": "strict",
+    "gold": 236,
+    "extracted": 303,
+    "tp": 24,
+    "precision": 0.0792,
+    "recall": 0.1017,
+    "f1": 0.0891
+  },
+  "lenient": {
+    "mode": "lenient",
+    "gold": 232,
+    "extracted": 302,
+    "tp": 31,
+    "precision": 0.1026,
+    "recall": 0.1336,
+    "f1": 0.1161
+  }
+}
